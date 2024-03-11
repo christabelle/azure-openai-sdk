@@ -1,6 +1,8 @@
-https://github.com/openai/tiktoken/blob/main/tiktoken/model.py
+# Encoding used by different models
 
-# TODO: these will likely be replaced by an API endpoint
+Referenced from https://github.com/openai/tiktoken/blob/main/tiktoken/model.py for easy reuse.
+
+```python
 MODEL_PREFIX_TO_ENCODING: dict[str, str] = {
     # chat
     "gpt-4-": "cl100k_base",  # e.g., gpt-4-0314, etc., plus gpt-4-32k
@@ -59,3 +61,4 @@ MODEL_TO_ENCODING: dict[str, str] = {
     # open source
     "gpt2": "gpt2",
 }
+```

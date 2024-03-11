@@ -1,26 +1,20 @@
 {
     "rest-client.environmentVariables": {
         "$shared": {
-            "openai-westeurope-baseurl": "https://christa-openai.openai.azure.com",
+            "openai-westeurope-baseurl": "https://your-openai-resource.openai.azure.com",
             "openai-westeurope-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         "local": {
-            "openai-westeurope-baseurl": "https://christa-openai.openai.azure.com",
+            "openai-westeurope-baseurl": "https://your-openai-resource.openai.azure.com",
             "openai-westeurope-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         "staging": {
-            "openai-westeurope-baseurl": "https://christa-openai.openai.azure.com",
+            "openai-westeurope-baseurl": "https://your-openai-resource.openai.azure.com",
             "openai-westeurope-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         "production": {
-            "openai-westeurope-baseurl": "https://christa-openai.openai.azure.com",
-            "openai-westeurope-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-            "openai-eastus-baseurl": "https://christa-openai-eastus.openai.azure.com",
-            "openai-eastus-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-            "openai-canadaeast-baseurl": "https://christa-openai-canadaeast.openai.azure.com",
-            "openai-canadaeast-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-            "openai-swedencentral-baseurl": "https://christa-openai-swedencentral.openai.azure.com",
-            "openai-swedencentral-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            "openai-westeurope-baseurl": "https://your-openai-resource.openai.azure.com",
+            "openai-westeurope-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         }
     }
 }
