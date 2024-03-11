@@ -1,0 +1,10 @@
+POST {{openai-westeurope-baseurl}}/openai/deployments/{{model-deployment-whisper}}/audio/transcriptions?api-version=2023-09-01-preview HTTP/1.1
+Content-Type: multipart/form-data; boundary=boundary
+Api-Key: {{openai-westeurope-key}}
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="wikipediaOcelot.wav"
+Content-Type: audio/wav
+
+< C:\\Users\\chsan\\OneDrive - Microsoft\\Courses\\6. AI-102\\cognitive-services-speech-sdk\\sampledata\\audiofiles\\wikipediaOcelot.wav
+--boundary--

@@ -1,0 +1,9 @@
+openai==0.28
+python-dotenv
+azure
+
+''' For the 1.x files you need the latest version of openai
+openai
+python-dotenv
+azure
+'''

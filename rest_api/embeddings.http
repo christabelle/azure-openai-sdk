@@ -1,0 +1,7 @@
+POST {{openai-eastus-baseurl}}/openai/deployments/{{model-deployment-ada}}/embeddings?api-version=2022-12-01
+Content-Type: application/json
+Api-Key: {{openai-eastus-key}}
+
+{
+    "input": "The food was delicious and the waiter..."
+}

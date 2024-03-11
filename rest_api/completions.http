@@ -1,0 +1,8 @@
+POST {{openai-eastus-baseurl}}/openai/deployments/{{model-deployment-301}}/completions?api-version=2023-03-15-preview
+Content-Type: application/json
+Api-Key: {{openai-eastus-key}}
+
+{
+  "prompt": "Your favorite Shakespeare is",
+  "max_tokens": 3
+}

@@ -1,0 +1,12 @@
+POST {{openai-eastus-baseurl}}/openai/deployments/{{model-deployment-301}}/chat/completions?api-version=2023-03-15-preview
+Content-Type: application/json
+Api-Key: {{openai-eastus-key}}
+
+{"messages":
+    [
+        {"role": "system", "content": "You are a helpful assistant, teaching people about AI."},
+        {"role": "user", "content": "Does Azure OpenAI support multiple languages?"},
+        {"role": "assistant", "content": "Yes, Azure OpenAI supports several languages, and can translate between them."},
+        {"role": "user", "content": "Do other Azure AI Services support translation too?"}
+    ]
+}

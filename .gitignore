@@ -1,0 +1,19 @@
+# Ignore environment variables file
+.env
+
+# Ignore vscode settings file
+settings.json
+
+# Ignore virtual environment
+.venv/
+.venv/*
+
+# Ignore __pycache__ directory
+__pycache__/
+__pycache__/*
+
+# Ignore image directories
+images/*
+
+# Ignore incomplete files
+1.x/dalle2.py

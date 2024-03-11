@@ -1,0 +1,9 @@
+POST {{openai-eastus-baseurl}}/openai/images/generations:submit?api-version=2023-06-01-preview
+Content-Type: application/json
+Api-Key: {{openai-eastus-key}}
+
+{
+    "prompt": "Dog wearing an Real Madrid jersey",
+    "n": 1,
+    "size": "1024x1024"
+}
